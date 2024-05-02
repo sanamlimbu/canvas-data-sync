@@ -1,17 +1,21 @@
 # canvas-data-sync
 
-Currently the script syncs `canvas` schema.
+Currently, the script syncs tables under ***canvas*** schema.
 
-## Enviornment variables
+## Environment variables
 
-DAP_API_URL
-DAP_CLIENT_ID
-DAP_CLIENT_SECRET
-Create above envs from Instructure Idntify (https://identity.instructure.com/)
-DAP_CONNECTION_STRING is database connection string
+DAP_API_URL\
+DAP_CLIENT_ID\
+DAP_CLIENT_SECRET\
+Create the above envs from [Instructure Identity](https://identity.instructure.com/).\
+DAP_CONNECTION_STRING is your database connection string.
 
-#Dependencies
-Python 3.4 or later
-instructure-dap-client
-Install required dependencies using
-`pip install -r requirements.txt`
+## Dependencies
+Python 3.4 or later\
+instructure-dap-client\
+
+Install required dependencies using\
+```pip install -r requirements.txt```
+
+## Run
+```python canvas.py```
