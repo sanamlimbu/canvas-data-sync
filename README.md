@@ -12,7 +12,7 @@ DAP_CONNECTION_STRING is your database connection string.
 
 ## Dependencies
 Python 3.4 or later\
-instructure-dap-client\
+instructure-dap-client
 
 Install required dependencies using\
 ```pip install -r requirements.txt```
