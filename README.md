@@ -11,7 +11,7 @@ Create above envs from Instructure Idntify (https://identity.instructure.com/)
 DAP_CONNECTION_STRING is database connection string
 
 #Dependencies
-Python 3.x
+Python 3.4 or later
 instructure-dap-client
 Install required dependencies using
 `pip install -r requirements.txt`
