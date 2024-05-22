@@ -29,6 +29,7 @@ canvas_tables = [
     "assignments",
     "course_sections",
     "enrollments",
+    "submissions",
 ]
 
 
@@ -42,7 +43,7 @@ if db_location != "supabase" and db_location != "local":
     print("invalid argument, enter 'supabase' or 'local'.")
     exit(1)
 
-base_url = os.environ.get("DAP_API_URL")
+base_url = os.environ.get("DAP_BASE_URL")
 dap_client_id = os.environ.get("DAP_CLIENT_ID")
 dap_client_secret = os.environ.get("DAP_CLIENT_SECRET")
 
